@@ -8,6 +8,7 @@ import copy
 import time
 import sys
 
+
 def open_pathway_txtfile(infile):
     infile = raw_input("whats the name of your file?\n").lower()
     sep = raw_input("press 1 if you file is tab delimited and 2 if your file is comma separated\n").lower()
